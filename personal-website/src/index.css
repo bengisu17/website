@@ -1,0 +1,47 @@
+.hero-section h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  margin-left: 15px;
+}
+
+
+.footer {
+  background-color: #343a40; /* Arka plan rengi (Navbar ile uyumlu olacak şekilde) */
+  color: white;
+  position: fixed; /* Footer'ı sabitlemek için */
+  bottom: 0; /* Sayfanın en altına yerleştirir */
+  width: 100%; /* Sayfa genişliği kadar yayılır */
+  text-align: center;
+  z-index: 1000; /* Üstteki içerikle çakışmasını önler */
+  padding: 10px 0; /* Üst-alt boşluk ekler */
+  font-size: 0.9rem;
+}
+
+.content {
+  min-height: calc(100vh - 50px); /* Sayfa yüksekliğini ayarlar */
+  padding-bottom: 50px; /* Footer için boşluk bırakır */
+  box-sizing: border-box;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* Başka öğeler header'ın üzerine çıkmasın diye yüksek bir değer veriyoruz */
+  width: 100%;
+  
+}
+
+
