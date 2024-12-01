@@ -10,7 +10,7 @@ const Header = () => {
         <Navbar.Toggle aria-controls="navbar-nav" />
         <Navbar.Collapse id="navbar-nav">
           <Nav className="ms-auto">
-            {/* Home linki ana sayfaya yönlendirilir */}
+      
             <Nav.Item>
               <Nav.Link as={Link} to="/">Home</Nav.Link>
             </Nav.Item>

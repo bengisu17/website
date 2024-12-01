@@ -10,7 +10,7 @@ const Home = () => {
       <Header />
       <Hero />
       <div className="content">
-        {/* Ana sayfa için ek içerik buraya eklenebilir */}
+        {/* ana sayfa için ek içerik eklenebilir */}
         <p>Welcome to the personal website of Professor John Doe! <br/> 
 
         </p>

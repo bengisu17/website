@@ -4,8 +4,8 @@ import { Navbar, Nav } from 'react-bootstrap';
 const NavigationBar = () => {
   return (
     <Navbar bg="dark" variant="dark" expand="lg">
-      <Navbar.Brand href="/"> {/* Bu satırı kaldırabilirsiniz */}
-        {/* 'Professor's Site' yerine boş bırakın ya da logo ekleyin */}
+      <Navbar.Brand href="/"> 
+      
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
