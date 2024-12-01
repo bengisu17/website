@@ -1,25 +1,18 @@
 import React from 'react';
 import Header from '../components/Header';
-import Hero from '../components/Hero';
-
+import AboutContent from '../components/AboutContent';
 
 const About = () => {
-  // LoremIpsum nesnesini oluşturuyoruz
-
-
   return (
     <div>
       <Header />
-      <Hero />
-      <div className="content">
-        {/* Ana sayfa için ek içerik buraya eklenebilir */}
-        <p>Welcome to the personal website of Professor John Doe! <br/> 
-
-        </p>
+      <div className="container mt-4">
+        <AboutContent />
       </div>
     </div>
   );
 };
 
 export default About;
+
 

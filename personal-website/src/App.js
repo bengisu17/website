@@ -20,8 +20,8 @@ function App() {
     <div className="App">
       {!isAbout && <Header showMenu />}
       <Routes>
-        <Route path="/" element={<About />} /> {/* HomePage bileşenini ana sayfada gösteriyoruz */}
-        <Route path="/home" element={<Home />} />
+        <Route path="/" element={<Home />} /> {/* HomePage bileşenini ana sayfada gösteriyoruz */}
+        <Route path="/about" element={<About />} />
       
         <Route path="/research" element={<Research />} />
         <Route path="/publications" element={<Publications />} />
