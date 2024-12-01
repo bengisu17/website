@@ -13,7 +13,7 @@ import Home from "./pages/Home"
 function App() {
   const location = useLocation();
 
-   //Header'ı ilk sayfa (HomePage) için farklı göstermek için kontrol
+
   const isAbout = location.pathname === "/";
 
   return (
@@ -21,7 +21,7 @@ function App() {
       {!isAbout && <Header showMenu />}
      
       <Routes>
-        <Route path="/" element={<Home />} /> {/* HomePage bileşenini ana sayfada gösteriyoruz */}
+        <Route path="/" element={<Home />} /> 
         <Route path="/about" element={<About />} />
       
         <Route path="/research" element={<Research />} />
@@ -34,7 +34,6 @@ function App() {
   );
 }
 
- //Router'ı sarmalayarak export
 export default function WrappedApp() {
   return (
     <Router>
