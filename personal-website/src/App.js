@@ -19,6 +19,7 @@ function App() {
   return (
     <div className="App">
       {!isAbout && <Header showMenu />}
+     
       <Routes>
         <Route path="/" element={<Home />} /> {/* HomePage bileşenini ana sayfada gösteriyoruz */}
         <Route path="/about" element={<About />} />
