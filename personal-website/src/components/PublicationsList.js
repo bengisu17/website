@@ -25,7 +25,7 @@ const Publications = () => {
 
   return (
     <div className="container mt-5">
-      <h1>Publications</h1>
+
       <div className="row">
         {publications.map((pub, index) => (
           <div key={index} className="col-md-4">

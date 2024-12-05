@@ -1,0 +1,27 @@
+/* Tabs başlıklarının her zaman görünür olmasını sağlar */
+.nav-tabs {
+    display: flex;
+    justify-content: center;
+    border-bottom: none; /* Alt çizgiyi kaldırır */
+  }
+  
+  .nav-item {
+    margin-right: 10px; /* Başlıklar arasındaki boşluğu ayarlar */
+  }
+  
+  .nav-link {
+    color: #000; /* Başlıkların rengini ayarlar */
+    font-weight: bold;
+    border: none; /* Tab başlıklarının etrafındaki kenarlığı kaldırır */
+  }
+  
+  .nav-link.active {
+    color: #007bff; /* Seçili başlığın rengini mavi yapar */
+    font-weight: bold;
+  }
+  
+  .nav-link:hover {
+    color: #007bff; /* Hover efektinin rengini mavi yapar */
+    text-decoration: none; /* Hover üzerine gelince metnin altını çizmez */
+  }
+  

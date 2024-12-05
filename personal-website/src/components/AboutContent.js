@@ -1,6 +1,9 @@
 import React from 'react';
 import { Container, Tabs, Tab } from 'react-bootstrap';
 
+import './aboutcontent.css';
+
+
 const AboutContent = () => {
   return (
     <Container className="my-5">
