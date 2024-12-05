@@ -11,7 +11,7 @@ const Home = () => {
       <Hero />
       <div className="content">
         {/* ana sayfa için ek içerik eklenebilir */}
-        <p>Welcome to the personal website of Professor John Doe! <br/> 
+        <p><br/> 
 
         </p>
       </div>

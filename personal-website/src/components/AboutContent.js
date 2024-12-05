@@ -13,7 +13,7 @@ const AboutContent = () => {
 
   return (
     <div>
-      <h2>About the Professor</h2>
+      <h2>About Saltuk Buğra Selçuklu</h2>
       <ListGroup>
         {aboutDetails.map((item, index) => (
           <ListGroup.Item key={index}>

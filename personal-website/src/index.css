@@ -1,47 +1,102 @@
-.hero-section h1 {
-  font-size: 2.5rem;
-  font-weight: bold;
-  margin-bottom: 10px;
+body, html {
+  margin: 0;
+  padding: 0;
+  height: auto; /* Yüksekliği sınırlamayın */
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* Sayfa tam boyutunda */
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+  color: #2c3e50; /* Koyu mavi başlıklar */
+}
+
+.navbar {
+  background-color: #2c3e50; /* Koyu mavi navbar */
+}
+
+.nav-link {
+  color: #f8f9fa !important; /* Beyaz linkler */
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #1abc9c !important; /* Turkuaz hover efekti */
+}
+
+.hero {
+  background-color: #1abc9c;
+  color: white;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.content {
+  padding: 20px;
+}
+
+footer {
+  background-color: #2c3e50;
+  color: #f8f9fa;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+  position: fixed; /* Footer'ı sayfada sabit tutar */
+  bottom: 0;
+  left: 0;
+}
+
+
+main {
+  flex: 1; /* Ana içerik kısmı sayfanın geri kalan kısmını kaplasın */
+  padding-bottom: 80px;
+  overflow-y: auto;  /* Footer'ın altta kalması için mesafe bırak */
+}
+
+.hero-section {
+  background-color: #f8f9fa; /* Arka plan rengi */
+  padding: 5rem 0; /* Üst ve alt padding */
+}
+
+.hero-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem; /* Başlık boyutunu ayarlıyoruz */
+  color: #333; /* Başlık rengi */
 }
 
 .hero-section p {
   font-size: 1.2rem;
+  color: #666; /* Açıklama metni rengi */
 }
 
-.navbar-brand {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-.nav-link {
-  margin-left: 15px;
+.text-muted {
+  color: #6c757d !important;
 }
 
 
-.footer {
-  background-color: #343a40; /* Arka plan rengi (Navbar ile uyumlu olacak şekilde) */
-  color: white;
-  position: fixed; /* Footer'ı sabitlemek için */
-  bottom: 0; /* Sayfanın en altına yerleştirir */
-  width: 100%; /* Sayfa genişliği kadar yayılır */
-  text-align: center;
-  z-index: 1000; /* Üstteki içerikle çakışmasını önler */
-  padding: 10px 0; /* Üst-alt boşluk ekler */
-  font-size: 0.9rem;
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 1.5rem; /* Mobilde başlık boyutunu küçültüyoruz */
+  }
+
+  .hero-section p {
+    font-size: 1rem; /* Açıklama metnini mobilde küçültüyoruz */
+  }
 }
 
-.content {
-  min-height: calc(100vh - 50px); /* Sayfa yüksekliğini ayarlar */
-  padding-bottom: 50px; /* Footer için boşluk bırakır */
-  box-sizing: border-box;
-}
 
-header {
-  position: sticky;
-  top: 0;
-  z-index: 1000; /* Başka öğeler header'ın üzerine çıkmasın diye yüksek bir değer veriyoruz */
-  width: 100%;
-  
-}
+
+
+
+
+
+
+
+
 
 
